@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Carros de Luxo</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Carros de Luxo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#">Menus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Carros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Suporte
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>                  
+                </ul>               
+              </div>
+            </div>
+          </nav>                
+    </header>
+
+    <main>
+        <section>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/ferrari-sf90-spider.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Carros de luxo</h5>
+                  <p>Os carros mais bonitos do mundo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/lamborghini-huracan.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Maquinas</h5>
+                  <p>Conseguem atingir mais de 200 km por hora.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/porsche.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Exclusivos!</h5>
+                  <p>Custam mais de milhões.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </section>
+
+        <section class="ferrari">
+            <div class="container-fluid bg-light text-center p-4"> 
+                <h1 class="p-2">Ferrari</h1>
+                <p>
+                    Ferrari é uma fabricante italiana de carros esportivos de luxo com sede em Maranello. 
+                    Fundada por Enzo Ferrari em 1939 na divisão de corridas da Alfa Romeo com o nome Auto Avio Costruzioni, 
+                    a empresa construiu seu primeiro carro em 1940.
+                </p>   
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/ferrari-sf90-spider.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Ferrari - Spider</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/640px-Orange_Enzo_Ferrari_(7191948164).jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Ferrari - Enzo</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/ferrari.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Ferrari - F10</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+            </div>            
+        </section>
+
+        <section>
+            <div class="container-fluid bg-secondary text-center p-2">
+                <h1 class="p-2 text-light">Lamborguini</h1>
+
+                <p class="text-light">
+                    Lamborghini é uma fabricante italiana de automóveis desportivos de luxo e de alto desempenho criada originalmente para competir com a Ferrari com sede no município de Sant'Agata Bolognese. 
+                    A companhia, que foi fundada em 1963 por Ferruccio Lamborghini (1916-1993) como uma filial da sua bem-sucedida fábrica de tratores Lamborghini Trattori S.p.A., atualmente o grupo Volkswagen AG, 
+                    a tem como subsidiaria da divisão Audi AG, onde intercambia tecnologias entre Audi R8 e os modelos mais recentes da Lamborghini.
+                </p>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/2023-lamborghini-huracan-sterrato127-6467c8f12dcce.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Lamborguini - Huracan</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/lamborghini-huracan-front.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Lamborguini - Murcielago</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/lamborghini-huracan.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Lamborguini - Gallardo</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid bg-light text-center p-4">
+                <h1 class="p-2">Porsche</h1>
+                <p>
+                    Porsche é um fabricante alemão de automóveis especializado em carros esportivos, SUVs e sedãs de alto desempenho, com sede em Stuttgart, Baden-Württemberg, Alemanha. 
+                    A empresa é de propriedade do Grupo Volkswagen, cujo controle acionário pertence à Porsche SE. 
+                    A linha atual da Porsche inclui o 718, 911, Panamera, Macan, Cayenne e Taycan
+                </p>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/porsche_cayenne_2018_11_01092017_7060_1280_960.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Porsche - 911</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/porsche.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Porsche - Caynan</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="imagens/Porsche-911_Turbo_S-2021-1024-02.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Porsche - 911 R</h5>                        
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid bg-danger text-center p-2">
+            <p class="text-light">&copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
